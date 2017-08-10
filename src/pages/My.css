@@ -1,0 +1,76 @@
+*{
+	margin: 0;padding: 0;
+}
+
+._loginbox{
+	width: 100%;
+	height: 135px;
+	position: absolute;
+	top:45px;
+	margin: 15px 0;
+}
+._login{
+	width:125px;
+	line-height:45px;
+	background:#1fc8a1;
+	margin: 45px auto;
+	text-align: center;
+	color: white;
+	border-radius: 5px;
+	
+	
+}
+.box{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width: 90%;
+	height: 192px;
+	margin: 0 auto;
+	margin-top:145px;
+}
+.box li{
+	list-style: none;
+	width: 48%;
+	line-height: 82px;
+	background: #1fc8a1;
+	text-align: center;
+	margin-top: 10px;
+	color: white;
+}
+.logininfo{
+	width: 100%;
+	height: 135px;
+	position: absolute;
+	top:45px;
+	padding: 15px 0;
+	display: none;
+}
+.resume{
+	position: absolute;
+	right: 0;
+	color: #00b38a;
+}
+
+.headicon{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	
+	background: url(../headpic.png) no-repeat center;
+	border: 5px solid #f6f6f6;
+	margin: 0 auto;
+}
+.user{
+	text-align: center;
+}
+.loginout{
+	width: 90%;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	color: white;
+	background: #1fc8a1;
+	margin: 10px auto;
+	display: none;
+}	

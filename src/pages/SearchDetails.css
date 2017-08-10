@@ -1,0 +1,123 @@
+*{margin: 0;padding: 0;}
+
+.data-header .left{
+	position: absolute;
+    left: 0;
+    top: 0;
+    height:45px;
+    width: 40px; 
+    background: url(../icon.png) no-repeat 18px -7px;
+	background-size: 395px 270px;
+}
+.data-header,.data-footer{
+	width: 100%;
+	line-height: 45px;
+	background: #00b38a;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+}
+.datails .data-footer{
+	position: fixed;
+	bottom: 0;
+}
+
+.position-title{
+	height: 48px;
+	border-bottom: 1px solid #ccc;
+	padding: 0 15px;
+}
+.position-title h3{
+	float: left;
+	line-height: 48px;
+}
+.position-title .icon{
+	float: right;
+  	position: relative;
+    text-align: center;
+    height: 48px;
+    padding: 6px 10px 0 10px;
+}
+.icon .star{
+	display: block;
+    width: 15px;
+    height: 15px;
+    margin: 0 auto;
+    vertical-align: middle;
+	background: url(../icon.png) no-repeat -170px -41px;
+	background-size: 250px 250px;
+}
+.icon .collect{
+	display: block;
+    color: #888;
+    font-size: 12px;
+    line-height: 30px;
+}
+.position-detail{
+	border-bottom: 1px solid #ccc;
+	min-height: 10px;
+	padding: 15px;
+}
+.position-item {
+	 overflow: hidden;
+	 
+}
+.position-item li{
+	float: left;
+    color: #333;
+    font-size:14px;
+   width: 33.33%;
+   margin-bottom: 11px;
+}
+.position-item li span{
+	margin-right: 5px;
+}
+.money{
+	display: inline-block;
+    height: 13px;
+    width: 13px;
+    vertical-align: middle;
+	background: url(../icon.png) no-repeat -66px -48px;
+	background-size: 250px 250px;
+}
+.city{
+	display: inline-block;
+    height: 13px;
+    width: 13px;
+    vertical-align: middle;
+	background: url(../icon.png) no-repeat -79px -49px;
+	background-size: 250px 250px;
+}
+.time{
+	
+	display: inline-block;
+    height: 13px;
+    width: 13px;
+    vertical-align: middle;
+	background: url(../icon.png) no-repeat -93px -49px;
+	background-size: 250px 250px;
+}
+.year{
+	
+	display: inline-block;
+    height: 13px;
+    width: 13px;
+    vertical-align: middle;
+	background: url(../icon.png) no-repeat -110px -49px;
+	background-size: 250px 250px;
+}
+.education{
+	
+	display: inline-block;
+    height: 13px;
+    width: 13px;
+    vertical-align: middle;
+	background: url(../icon.png) no-repeat -128px -49px;
+	background-size: 250px 250px;
+}
+.li2{
+	text-align: center;
+}
+.li3{
+	text-align: right;
+}
